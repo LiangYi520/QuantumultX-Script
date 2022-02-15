@@ -15,7 +15,7 @@
 # > 有书解锁会员精读&付费精选
 ^http?:\/\/kongkongfufei.pdf00.com\/api\/client\/info$ url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/yptq.js
 [mitm] 
-hostname = *.youshu.cc
+hostname = kongkongfufei.pdf00.com
 *
 *
 */
