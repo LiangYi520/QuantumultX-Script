@@ -1,7 +1,7 @@
 /* Quantumult X 脚本: 音频提取❤凉意 下载链接🔗https://apps.apple.com/us/app/%E9%9F%B3%E9%A2%91%E5%89%AA%E8%BE%91%E6%8F%90%E5%8F%96-%E9%9F%B3%E4%B9%90%E5%89%AA%E8%BE%91%E7%BC%96%E8%BE%91%E8%A7%86%E9%A2%91%E6%8F%90%E5%8F%96%E9%9F%B3%E9%A2%91%E5%B7%A5%E5%85%B7/id1546430222?l=zh
 [rewrite_local] 
 #音频提取
-^http://kongkongfufei.pdf00.com/api/client/info url script-response-body yptq.js
+^http://kongkongfufei.pdf00.com/api/client/info url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/yptq.js
 [mitm] hostname = kongkongfufei.pdf00.com,
 */
 
