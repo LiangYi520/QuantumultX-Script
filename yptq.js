@@ -13,7 +13,8 @@
 *******************************
 [rewrite_local] 
 #音频提取
-^http?:\/\/kongkongfufei.pdf00.com\/api\/client\/info$ url script-response-body yptq.js
+
+^http?:\/\/kongkongfufei.pdf00.com\/api\/client\/info$ url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/yptq.js
 [mitm] hostname = kongkongfufei.pdf00.com
 */
 
