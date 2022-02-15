@@ -1,7 +1,19 @@
-/* Quantumult X 脚本: 音频提取❤凉意 下载链接🔗https://apps.apple.com/us/app/%E9%9F%B3%E9%A2%91%E5%89%AA%E8%BE%91%E6%8F%90%E5%8F%96-%E9%9F%B3%E4%B9%90%E5%89%AA%E8%BE%91%E7%BC%96%E8%BE%91%E8%A7%86%E9%A2%91%E6%8F%90%E5%8F%96%E9%9F%B3%E9%A2%91%E5%B7%A5%E5%85%B7/id1546430222?l=zh
+/*
+ *
+ *
+脚本功能：拦截100解锁超级会员
+软件版本：3.0.2
+下载地址：http://t.cn/A6MLFAJf
+脚本作者：Hausd0rff
+更新时间：2022-02-15
+电报频道：https://t.me/yqc_123
+问题反馈：https://t.me/yqc_777
+使用声明：⚠️此脚本仅供学习与交流，
+        请勿转载与贩卖！⚠️⚠️⚠️
+*******************************
 [rewrite_local] 
 #音频提取
-^http://kongkongfufei.pdf00.com/api/client/info url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/yptq.js
+^http://kongkongfufei.pdf00.com/api/client/info url script-response-body yptq.js
 [mitm] hostname = kongkongfufei.pdf00.com,
 */
 
