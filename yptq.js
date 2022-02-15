@@ -1,10 +1,10 @@
 /*
  *
  *
-脚本功能：有书解锁会员精读
+脚本功能：音频提取破解会员
 软件版本：6.1.5
 下载地址：http://t.cn/A6JZ1ZmD
-脚本作者：Hausd0rff
+脚本作者：凉意
 更新时间：2021.11.21
 电报频道：https://t.me/yqc_123
 问题反馈：https://t.me/yqc_007
@@ -12,8 +12,8 @@
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local]
-# > 有书解锁会员精读&付费精选
-^http?:\/\/kongkongfufei.pdf00.com\/api\/client\/info$ url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/yptq.js
+# > 音频提取vip
+^http:\/\/kongkongfufei.pdf00.com\/api\/client\/info$ url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/yptq.js
 [mitm] 
 hostname = kongkongfufei.pdf00.com
 *
