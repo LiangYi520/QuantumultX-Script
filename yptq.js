@@ -19,6 +19,7 @@
 */
 
 var body = $response.body;
+var urlq = $request.url;
 var obj = JSON.parse(body);
 
 const 1 = '/api/client/info';
