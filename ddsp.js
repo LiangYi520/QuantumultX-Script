@@ -20,3 +20,7 @@
 ^*bayescom.* url reject
 ^*snssdk.com url reject
 ^*toutiao.com url reject
+
+[mitm] 
+
+hostname = api.rr.tv
