@@ -31,7 +31,6 @@ var body = $response.body;
   body = JSON.stringify(obj);
 }
  if (urlq.indexOf(2) != -1) {
-  obj.statusCode = 0;
   obj.data = {"commentUser":true,"user":{"id":17857380199,"headImgUrl":"http://img.rr.tv/img/head/20220213/o_6af3766eaa494f26b8780b318a85d7d8.jpg","isConfirmed":false,"roleInfo":"normal","level":3,"levelStr":"邂逅美剧","sex":0,"confirmInfo":"","replyCount":0,"articleCount":0,"favoriteCount":0,"silverCount":10,"achievementCount":0,"hasSignIn":false,"sign":"","birthday":"2000-01-01","city":"","loginFrom":null,"token":null,"mobile":"13136211953","nickName":"凉意","isSilence":false,"silenceMsg":"","isBlack":false,"score":519,"continuousDay":0,"fansCount":0,"focusUserCount":0,"seriesCount":0,"actorCount":0,"focus":false,"wmSign":null,"medalList":[{"name":"大魔王","endTime":"2099-02-22 02:44:53","imgUrl":"http://img.rr.tv/cover/20200424/o_1587720799676.png","id":2}],"createTime":1617281893000,"newUser":false,"certLabel":null,"certNote":null,"vipMedal":{"name":"大魔王","endTime":"2099-02-22 02:44:53","imgUrl":"http://img.rr.tv/cover/20200424/o_1587720799676.png","id":2,"isExpired":false},"vipLevel":null,"changedValue":1,"isClock":false}};
   body = JSON.stringify(obj);
 }
