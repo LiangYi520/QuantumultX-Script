@@ -40,7 +40,7 @@ var body = $response.body;
   obj.data = [];
   body = JSON.stringify(obj);
 }
- $done({
- body: JSON.stringify(obj)
-}
+
+$done({ body });
+
 );
