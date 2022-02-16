@@ -5,7 +5,7 @@
 软件版本：1.6
 下载地址：https://mobile.rr.tv/h5/share/goapp
 脚本作者：凉意
-更新时间：2021.11.21
+更新时间：2022.02.16
 电报频道：https://t.me/liangyiA
 问题反馈：https://t.me/LiangYi66
 使用声明：⚠️此脚本仅供学习与交流，
