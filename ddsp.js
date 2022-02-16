@@ -13,7 +13,7 @@
 *******************************
 [rewrite_local]
 # > 多多视频vip
-^http:\/\/^https:\/\/api.rr.tv\/(ad/getAll|user/profile|user/privilege/list) url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/ddsp.js
+^https:\/\/api.rr.tv\/(ad/getAll|user/profile|user/privilege/list) url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/ddsp.js
 [mitm] 
 hostname = api.rr.tv
 *
