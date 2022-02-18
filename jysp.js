@@ -11,6 +11,8 @@
 使用声明：⚠️此脚本仅供学习与交流，
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
+[rewrite_local]
+^https:\/\/api\.8897815\.com\/long_video\/advertising url response-body LOGIN_BEFOR response-body 1
 [rewrite_local] 
 ^https:\/\/api\.8897815\.com\/long_video\/user\/info url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/jysp.js
 [mitm]
