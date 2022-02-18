@@ -13,7 +13,11 @@
 *******************************
 [rewrite_local] 
 ^http:\/\/api\.\d+\.com\/(long_video/user/daily/short_video_watch|long_video/user/info) url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/jysp.js
-[mitm] hostname = api.*.com
+[mitm]
+hostname = api.*.com
+*
+*
+*/
 var body = $response.body;
  var urlq = $request.url;
  var obj = JSON.parse(body);
