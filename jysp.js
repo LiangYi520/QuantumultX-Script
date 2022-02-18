@@ -24,7 +24,7 @@ var obj = JSON.parse(body);
 const 1 ='/long_video/advertising';
 const 2 ='/long_video/user/info';
  if (urlq.indexOf(1) != -1) {
-  delete obj["data"];
+  delete obj["LOGIN_BEFOR"];
   body = JSON.stringify(obj);
 }
  if (urlq.indexOf(2) != -1) {
