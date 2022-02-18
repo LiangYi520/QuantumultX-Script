@@ -12,9 +12,9 @@
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local] 
-^http:\/\/api\.\d+\.com\/long_video.+ url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/jysp.js
+^https:\/\/api\.8897815\.com\/long_video\/.+ url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/jysp.js
 [mitm]
-hostname = api.*.com
+hostname = api.8897815.com
 *
 *
 */
