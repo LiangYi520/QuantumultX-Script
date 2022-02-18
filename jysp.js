@@ -28,7 +28,7 @@ var body = $response.body;
   body = JSON.stringify(obj);
 }
  if (urlq.indexOf(2) != -1) {
-  obj.data.vipEndTime = 2099-01-01;
+  obj.data.vipEndTime = "2099-01-01";
   body = JSON.stringify(obj);
 }
  $done({
