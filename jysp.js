@@ -12,23 +12,16 @@
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local] 
-^https:\/\/api\.8897815\.com\/long_video\/advertising url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/jysp.js
+^https:\/\/api\.8897815\.com\/long_video\/user\/info url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/jysp.js
 [mitm]
 hostname = api.8897815.com
 *
 *
 */
-var body = $response.body;
-var urlq = $request.url;
-var obj = JSON.parse(body);
-const 1 ='/long_video/advertising';
-const 2 ='/long_video/user/info';
- if (urlq.indexOf(1) != -1) {
-  delete obj["LOGIN_BEFOR"];
-  body = JSON.stringify(obj);
-}
- if (urlq.indexOf(2) != -1) {
-  obj.["vipEndTime"] = "2099-01-01";
-  body = JSON.stringify(obj);
-}
-$done({ body });
+var objc = JSON.parse($response.body);
+
+objc.data["nickName"] = "凉意";
+objc.data["vipEndTime"] = "2099-09-28";
+objc.data["userType"] = 1;
+
+$done({body : JSON.stringify(objc)});
