@@ -12,13 +12,13 @@
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local] 
-^http:\/\/api\.\d+\.com\/(long_video/user/daily/short_video_watch|long_video/user/info) url script-response-body xiaozhushipin.js
+^http:\/\/api\.\d+\.com\/(long_video/user/daily/short_video_watch|long_video/user/info) url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/jysp.js
 [mitm] hostname = api.*.com
 var body = $response.body;
  var urlq = $request.url;
  var obj = JSON.parse(body);
- const 1 = 'long_video/user/daily/short_video_watch';
- const 2 = 'long_video/user/info';
+ const 1 = '/long_video/user/daily/short_video_watch';
+ const 2 = '/long_video/user/info';
  if (urlq.indexOf(1) != -1) {
   obj.data. freeWatchCount = 99999;
   body = JSON.stringify(obj);
