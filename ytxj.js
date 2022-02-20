@@ -21,6 +21,6 @@ hostname = m2u-api.getkwai.com
 */
 
 var objc = JSON.parse($response.body);
-objc.data.vipUserProductInfo.expireTime = 1999999999999;
-objc.data.vipUserProductInfo.vip = true;
+objc.expireTime = 1999999999999;
+objc.vip = true;
 $done({body: JSON.stringify(objc)});
