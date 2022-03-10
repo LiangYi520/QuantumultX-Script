@@ -12,7 +12,7 @@
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local]
-^https:\/\/m\.jmtiv\.com\/video\/user\/info url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/stbfq.js
+^https:\/\/m\.jmtiv\.com\/video\/user\/info url script-request-header https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/stbfq.js
 [mitm] 
 
 hostname = m.jmtiv.com
