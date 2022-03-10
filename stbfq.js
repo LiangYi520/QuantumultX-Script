@@ -12,7 +12,13 @@
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local]
-^*m.jmtiv.com.+ url request-header (\r\n)token:.+(\r\n) request-header $1token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiAiYm9vayIsICJzdWIiOiAidG9rZW4iLCAiaWF0IjogMTY0NDQxMDkxNywgImV4cCI6IDE2NDQ0MjI0MDAsICJsb2dpbl90eXBlIjogMiwgImFjY291bnQiOiAiMTU3Njc5NjMwMjAiLCAiZGV2aWNlX2lkIjogIjFFNkU0NTgxQkQ5QzQ3NjNBOTgxOEM4NjVENDYyNDg5IiwgInVzZXJfaWQiOiA0MDcxOCwgImNyZWF0ZV90aW1lIjogMTY0NDAzNTk2MX0._X2fdvttKE1GRLqt8SvWo0pL9lp9tyKsvSpXRtWpWos$2
+^https:\/\/m\.jmtiv\.com\/video\/user\/info url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/stbfq.js
 [mitm] 
 
 hostname = m.jmtiv.com
+*/
+var ly = $request['headers'];
+ly['token'] = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiAiYm9vayIsICJzdWIiOiAidG9rZW4iLCAiaWF0IjogMTY0NDQxMDkxNywgImV4cCI6IDE2NDQ0MjI0MDAsICJsb2dpbl90eXBlIjogMiwgImFjY291bnQiOiAiMTU3Njc5NjMwMjAiLCAiZGV2aWNlX2lkIjogIjFFNkU0NTgxQkQ5QzQ3NjNBOTgxOEM4NjVENDYyNDg5IiwgInVzZXJfaWQiOiA0MDcxOCwgImNyZWF0ZV90aW1lIjogMTY0NDAzNTk2MX0._X2fdvttKE1GRLqt8SvWo0pL9lp9tyKsvSpXRtWpWos';
+$done({
+    headers: ly
+});
