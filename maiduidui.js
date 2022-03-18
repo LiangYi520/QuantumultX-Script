@@ -19,7 +19,7 @@ hostname = mob.mddcloud.com.cn
 *
 *
 */
-let url = $request.url;
+var url = $request.url;
 const path1 = "api/vod/getSaction.action";
 const path2 = "adApi/advert/firstpart/advertList";
 const path3 = "adApi/advert/thirdpart/getCoopenAdParam";
