@@ -32,6 +32,8 @@ if (ly.indexOf(path2) != -1) {
 }
 if (ly.indexOf(path1) != -1) {
   obj["data"]["isTryWatch"] = 0;
+  obj["data"]["isvip"] = true;
+  obj["data"]["isVipSaction"] = 0;
 }
 if (ly.indexOf(path3) != -1) {
   delete obj["data"];
