@@ -19,21 +19,21 @@ hostname = mob.mddcloud.com.cn
 *
 *
 */
-var url = $request.url;
+let ly = $request.url;
 const path1 = "api/vod/getSaction.action";
 const path2 = "adApi/advert/firstpart/advertList";
 const path3 = "adApi/advert/thirdpart/getCoopenAdParam";
 let obj = JSON.parse($response.body);
 
-if (url.indexOf(path2) != -1) {
+if (ly.indexOf(path2) != -1) {
   // 去广告
   delete obj["data"];
   
 }
-if (url.indexOf(path1) != -1) {
+if (ly.indexOf(path1) != -1) {
   obj["data"]["isTryWatch"] = 0;
 }
-if (url.indexOf(path3) != -1) {
+if (ly.indexOf(path3) != -1) {
   delete obj["data"];
 }
 
