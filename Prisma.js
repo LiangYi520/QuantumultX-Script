@@ -13,7 +13,7 @@
 *******************************
 [rewrite_local]
 # > Prisma解锁订阅
-^https:\/\/api\.neuralprisma\.com\/receipt\/ios\/status\/prisma\/*$ url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/Prisma.js
+^https:\/\/api\.neuralprisma\.com\/receipt\/ios\/status\/prisma\/.+ url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/Prisma.js
 [mitm] 
 hostname = api.neuralprisma.com
 *
