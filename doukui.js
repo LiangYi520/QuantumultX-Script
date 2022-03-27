@@ -3,7 +3,7 @@
  *
 脚本功能：解锁vip
 软件版本：10.4.40
-下载地址：https://apps.apple.com/cn/app/id592331499
+下载地址：http://doukui.xyz/pages/ios/appstore.html?channel_code=&invite_code=oGdOj7
 脚本作者：凉意
 更新时间：2022.03.27
 电报频道：https://t.me/liangyiA
