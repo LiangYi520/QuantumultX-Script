@@ -23,7 +23,7 @@ let ly = $request.url;
 const path1 = "long_video/user/daily/short_video_watch";
 const path2 = "long_video/user/info";
 const path3 = "long_video/user/video/buy";
-const path3 = "long_video/advertising";
+const path4 = "long_video/advertising";
 let obj = JSON.parse($response.body);
 
 if (ly.indexOf(path4) != -1) {
