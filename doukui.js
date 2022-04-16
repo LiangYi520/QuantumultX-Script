@@ -14,6 +14,7 @@
 [rewrite_local]
 # > 抖窥视频
 ^https:\/\/ts1i\.dk\.y8848\.xyz\/app\/api\/user\/info url script-response-body https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/doukui.js
+^https?:\/\/ts1i\.dk\.y8848\.xyz\/app\/api\/(sms\/send|user\/bindphone) url reject-200
 [mitm] 
 hostname = ts1i.dk.y8848.xyz
 *
